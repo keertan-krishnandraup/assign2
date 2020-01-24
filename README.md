@@ -2,6 +2,16 @@
 ## Updated DB Schema
 ![alt text](https://raw.githubusercontent.com/keertan-krishnandraup/assign2/master/schema.png)
 
+## Execution Steps
+1. Run MongoDB and Flask servers on local machine, on default ports.
+1. Execute populate_db.sh by running bash populate_db.sh
+1. DB is now populated with schema as shown above.
+1. API Calls can be made through Postman. APIs found in apis.py
+1. Queries are implemented in queries.py
+
+## APScheduler
+Found in scheduler.py
+
 ## APIs
 ### Found in apis.py file
 * Posts : **route**: /posts **Role**: To find all posts of all users
