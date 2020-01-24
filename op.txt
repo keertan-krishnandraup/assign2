@@ -1,0 +1,9 @@
+[
+    {
+        "postId": 5,
+        "id": 5673,
+        "name": "Keertan",
+        "email": "keertank189@gmail.com",
+        "body": "this is a new comment"
+    }
+]

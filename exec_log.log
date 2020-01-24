@@ -1,0 +1,35 @@
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 14:59:57] "GET /del_post/5 HTTP/1.1" 405 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:00:03] "DELETE /del_post/5 HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/home/keertankrishnan/environments/assign2/apis.py', reloading
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:00:43] "DELETE /del_post/5 HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/home/keertankrishnan/environments/assign2/apis.py', reloading
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:02:31] "DELETE /del_post/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:03:40] "DELETE /posts/5 HTTP/1.1" 405 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:03:45] "GET /posts/5 HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:03:55] "GET /posts/6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:04:10] "GET /posts/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:04:44] "GET /get_user_posts/1 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:04:58] "GET /get_user_posts?userId=1 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:05:19] "GET /post?userId=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:06:13] "DELETE /del_post/46 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:06:23] "GET /post?userId=4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:06:28] "GET /post?userId=5 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/keertankrishnan/environments/assign2/apis.py', reloading
+INFO:werkzeug: * Detected change in '/home/keertankrishnan/environments/assign2/apis.py', reloading
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:27:18] "DELETE /del_post/3648 HTTP/1.1" 500 -
+INFO:werkzeug: * Detected change in '/home/keertankrishnan/environments/assign2/apis.py', reloading
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:29:22] "PUT /add_post HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:29:26] "PUT /add_post HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:29:42] "PUT /postsu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:30:03] "GET /post?userId=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:30:41] "PUT /postsu HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:31:05] "GET /post?userId=1 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/keertankrishnan/environments/assign2/apis.py', reloading
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:36:02] "GET /comment?postId=5 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:36:08] "GET /comments?postId=5 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/keertankrishnan/environments/assign2/apis.py', reloading
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:38:53] "PUT /addcomments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:39:21] "GET /comments?postId=5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:39:40] "PUT /addcomments HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:40:04] "GET /comments?postId=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Jan/2020 15:40:17] "GET /comments?postId=5 HTTP/1.1" 200 -
