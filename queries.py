@@ -19,6 +19,7 @@ def fetch_posts(idi):
         if(i['id']==post_id):
             return i
 
+#Fetch comments for a photo
 def fetch_comments(idi):
     post = fetch_posts(idi)
     return loads(dumps(post['comments']))
