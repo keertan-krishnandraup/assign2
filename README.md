@@ -14,19 +14,19 @@ Found in scheduler.py
 
 ## APIs
 ### Found in apis.py file
-* Posts : **route**: /posts **Role**: To find all posts of all users
-* Single Post: **route**: /posts/1 **Role**: To find a post with a particular Post ID
-* Comments: **route**: /all_comments **Role**: To find all comments for all posts for all users
-* Comments of a post: **route**: /comments?postId=5 **Role**: To find all comments for a particular post
-* Posts of a user: **route**: /post?userId=1 **Role**: To find all posts for a particular user
-* Delete Post: **route**: /del_post/5 **Role** : To delete a particular post by specifying it's ID
-* Add Post: **route**: /postsu **Role**: To add a post, as long as there isn't a post with the same ID **Sample Request Body**:
+* Posts : **Route**: /posts **Role**: To find all posts of all users
+* Single Post: **Route**: /posts/1 **Role**: To find a post with a particular Post ID
+* Comments: **Route**: /all_comments **Role**: To find all comments for all posts for all users
+* Comments of a post: **Route**: /comments?postId=5 **Role**: To find all comments for a particular post
+* Posts of a user: **Route**: /post?userId=1 **Role**: To find all posts for a particular user
+* Delete Post: **Route**: /del_post/5 **Role** : To delete a particular post by specifying it's ID
+* Add Post: **Route**: /postsu **Role**: To add a post, as long as there isn't a post with the same ID **Sample Request Body**:
 { "userId":1,
    "id":5,
    "title":"new title",
    "body":"new body"
 }
-* Add Comment: **route**: /addcomments **Role**: To add a comment, as long as a comment with the same ID does not exist  
+* Add Comment: **Route**: /addcomments **Role**: To add a comment, as long as a comment with the same ID does not exist  
 **Sample Request Body**:
 {
   "postId":5,
@@ -35,6 +35,28 @@ Found in scheduler.py
   "email":keertan.krishnan@draup.com,
   "body":"new comment"
 }
+
+* Get Photo: **Route**:/get_photo?photoId=4 **Role**: To retrieve a particular photo by ID
+* Photos in Album: **Route**:/get_all_photos?albumId=5 **Role**: To retrieve all photos of an album, specified by an ID 
+* Get Albums: **Route**:/albums?userId=1 **Role**: To find all albums of a particular user
+* Get Todos: **Route**:/todos?userId=1 **Role**: To find all todos of a particular user
+* Create Album: **Route**:/create_album **Role**:To create an empty album(no photos) as long as there isn't one with the same ID **Sample Request Body**:
+{  
+   "userId":1,
+   "id":3456,
+   "title":"New Album"
+}
+* Create Photo: **Route**:/create_photo **Role**: To create a photo as long as the album and postid already exist **Sample Request Body**:
+{
+   "albumId": 2,
+   "id": 34563,
+   "title": "new photo",
+   "url": "www.new.com",
+   "thumbnailUrl": "www.new.com",
+   "postId": 5
+}
+* Delete Album: **Route**:/del_album/4 **Role**: To delete a particular album as long as the ID exists
+* Delete Photo: **Route**:/del_photo/34563 **Role**: To delete a particular photo as long as the ID exists
 
 ## Queries 
 ### Found in queries.py file
