@@ -35,7 +35,7 @@ Found in scheduler.py
   "email":keertan.krishnan@draup.com,
   "body":"new comment"
 }
-
+##### New
 * Get Photo: **Route**:/get_photo?photoId=4 **Role**: To retrieve a particular photo by ID
 * Photos in Album: **Route**:/get_all_photos?albumId=5 **Role**: To retrieve all photos of an album, specified by an ID 
 * Get Albums: **Route**:/albums?userId=1 **Role**: To find all albums of a particular user
